@@ -19,16 +19,16 @@ STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
 
-
+```
 import matplotlib.pyplot as plt
 x_val = [0,1,2,3,4,5]
 y_val = [0,1,4,9,16,25]
 plt.plot(x_val,y_val)
 plt.show()
-
+```
 ![Screenshot 2024-05-06 110247](https://github.com/23013743/EXNO-5-DS/assets/161271714/03db6e2a-beff-45e0-83a2-de2537384c81)
 
-
+```
 import matplotlib.pyplot as plt
 x = [1,2,3]
 y = [2,4,1]
@@ -37,10 +37,10 @@ plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.title('My first graph')
 plt.show()
-
+```
 ![Screenshot 2024-05-06 110351](https://github.com/23013743/EXNO-5-DS/assets/161271714/7e7559e4-5e09-4bb2-9fb0-8d37d14e6d74)
 
-
+```
 import matplotlib.pyplot as plt
 x1 = [1,2,3]
 y1 = [2,5,3]
@@ -54,9 +54,9 @@ plt.title("Two lines on the same graph")
 plt.legend()
 plt.show()
 
-
+```
 ![Screenshot 2024-05-06 110448](https://github.com/23013743/EXNO-5-DS/assets/161271714/16e87bfa-27fe-434b-a574-d11ee68cff28)
-
+```
 import matplotlib.pyplot as plt
 import numpy as np
 x = [1,2,3,4,5]
@@ -65,7 +65,7 @@ y2 = [5,7,9,11,13]
 y3 = [2,4,6,8,10]
 plt.fill_between(x,y1,color = 'blue')
 plt.fill_between(x,y2,color = 'orange')
-
+```
 
 ![Screenshot 2024-05-06 110527](https://github.com/23013743/EXNO-5-DS/assets/161271714/ab80fa60-f8b0-4aff-8c1d-eafadb00f6f0)
 
@@ -135,30 +135,7 @@ plt.pie(slices,labels = slices,colors=colors,startangle=90,shadow = True,explode
 plt.legend()
 plt.show()
 ```
-![Screenshot 2024-05-06 110823](https://github.com/23013743/EXNO-5-DS/assets/161271714/de3fe53c-40f8-4ba2-9fac-8b4dc36e5010)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Screenshot 2024-05-06 110823](https://github.com/23013743/EXNO-5-DS/assets/161271714/de3fe53c-40f8-4ba2-9fac-8b4dc36e5010
 
 # Result:
  Include your result here
