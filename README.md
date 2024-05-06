@@ -69,14 +69,14 @@ plt.fill_between(x,y2,color = 'orange')
 
 ![Screenshot 2024-05-06 110527](https://github.com/23013743/EXNO-5-DS/assets/161271714/ab80fa60-f8b0-4aff-8c1d-eafadb00f6f0)
 
-``
+```
 plt.stackplot(x,y1,y2,y3,labels = ['line1','line2','line3'])
 plt.legend(loc = 'upper left')
 plt.title('Stacked line charts')
 plt.xlabel('x-axis')
 plt.ylabel('y-axis')
 plt.show()
-``
+```
 
 ![Screenshot 2024-05-06 110617](https://github.com/23013743/EXNO-5-DS/assets/161271714/848cf02d-6463-4b98-aae1-d22ccc233810)
 
@@ -89,8 +89,8 @@ plt.bar(names, val,color = 'purple')
 plt.show()
 ```
 
-![Screenshot 2024-05-06 110652](https://github.com/23013743/EXNO-5-DS/assets/161271714/e3e5c0a7-e97d-4526-8722-5269db332fb1)
 
+![Screenshot 2024-05-06 110652](https://github.com/23013743/EXNO-5-DS/assets/161271714/1b38caaf-f80c-4524-8233-7d8da40120e5)
 
 ```
 import matplotlib.pyplot as plt
@@ -104,7 +104,8 @@ plt.ylabel('no of people')
 plt.title('histogram')
 plt.show()
 ```
-![Screenshot 2024-05-06 110719](https://github.com/23013743/EXNO-5-DS/assets/161271714/90111252-7ac8-4339-a3b4-b7f606a39e91)
+
+![Screenshot 2024-05-06 110719](https://github.com/23013743/EXNO-5-DS/assets/161271714/16d3a251-b5bf-4451-9dbf-b43d11d7d5ba)
 
 
 ```
@@ -115,7 +116,8 @@ data=np.random.normal(loc=0,scale=1,size=100)
 data
 ```
 
-![Screenshot 2024-05-06 110740](https://github.com/23013743/EXNO-5-DS/assets/161271714/88f20a3f-1dd7-404c-a33a-78e53aad1b24)
+![Screenshot 2024-05-06 110740](https://github.com/23013743/EXNO-5-DS/assets/161271714/4d86e55a-fcd9-4f44-9bd2-599e3f8723d0)
+
 
 ```
 fig,ax=plt.subplots()
@@ -124,7 +126,8 @@ ax.set_xlabel("data")
 ax.set_ylabel("values")
 ax.set_title("box plot")
 ```
-![Screenshot 2024-05-06 110804](https://github.com/23013743/EXNO-5-DS/assets/161271714/a8594bc6-82f3-48a3-bbfd-7b3663a0aade)
+
+![Screenshot 2024-05-06 110804](https://github.com/23013743/EXNO-5-DS/assets/161271714/d6e1b3e1-0d91-497f-a303-feb9561dbb29)
 
 ```
 import matplotlib.pyplot as plt
@@ -135,7 +138,7 @@ plt.pie(slices,labels = slices,colors=colors,startangle=90,shadow = True,explode
 plt.legend()
 plt.show()
 ```
-![Screenshot 2024-05-06 110823](https://github.com/23013743/EXNO-5-DS/assets/161271714/de3fe53c-40f8-4ba2-9fac-8b4dc36e5010
+![Screenshot 2024-05-06 110823](https://github.com/23013743/EXNO-5-DS/assets/161271714/de3fe53c-40f8-4ba2-9fac-8b4dc36e5010)
 
 # Result:
  Include your result here
